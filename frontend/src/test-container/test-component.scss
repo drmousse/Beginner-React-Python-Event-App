@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.sidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  width: 100px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #555;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+  margin-left: 250px;
+}
+
+.main-content.expanded {
+  margin-left: 0;
+}
