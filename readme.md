@@ -21,7 +21,6 @@
 6. [Environment variables](#6-environment-variables)
 7. [Last words](#7-last-words)
 
----
 
 ## 1. The Tio App
 This is a (in my opinion) very beginner-friendly React (frontend) and Python/Flask (backend) fullstack web app project. 
@@ -42,7 +41,6 @@ As far as I remember this app does not assume any OS, so it should work on Windo
 The app itself is in german, but there are a lot of translators out there, so it should be no problem, to translate
 all of it to english or any other language you desire.
 
----
 
 ## 2. How to run the app
 
@@ -61,7 +59,6 @@ the deps afterwards. sry for that) via `pip install -r requirements.txt` or `poe
 to initialize your backend by running `python init_tables.py`. After successful init, you start the backend server with
 `python server.py`. And that should be it :)
 
----
 
 ## 3. Open Issue List
 Here you will find a list of open issues/to-do's which are not realized/implemented which you can code.
@@ -134,7 +131,6 @@ list, but the source code as well, with open issues. Unfortunately it's mixed: s
 not even sure, why i wasn't consisted in my choice of language :D But with some fitting translator it should be not a problem at all
 to translate it to english or any language you desire.
 
----
 
 ## 4. Further Improvements
 The app is far from being production ready, but it is a good project to improve your React skills. In this app almost everything in the  
@@ -150,12 +146,10 @@ frontend is done with React and its hooks. Here are some ideas which can improve
 - The interface of the backend should be refactored to its different components
 - Replace the auth system. It was for pure learning purposes. No offense, but don't assume, you can do better than already, by thousands, tested solutions out there ;P
 
----
 
 ## 5. How does the app work
 Coming soon... or you can click and find out on your own until this section is ready ;P
 
----
 
 ## 6. Environment variables
 The app is making use of environment variables. In particular
@@ -170,7 +164,6 @@ The app is making use of environment variables. In particular
 
 You can use a .env file (easiest solution I'd recommend or put all this in your environment variables of your OS).
 
----
 
 ## 7. Last words
 This Readme is surely not complete in regard of open issues or functionality (`5.How does the app work`) or just stating the status quo of the app.
