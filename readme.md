@@ -24,23 +24,23 @@
 ---
 
 ## 1. The Tio App
-This is a (in my opinion) very beginner-friendly React (frontend) and Python/Flask (backend) fullstack web app project.   
-It is a team building event app and it's supposed to help you on site with the hustle of writing down the scores of   
-all teams and calculate the placements within a game (called challenge in this app) and eventually calculate the final,   
-overall placements of all teams. The App supports creation of events, challenges and users. It also has a simple role based access system.   
+This is a (in my opinion) very beginner-friendly React (frontend) and Python/Flask (backend) fullstack web app project. 
+It is a team building event app and it's supposed to help you on site with the hustle of writing down the scores of
+all teams and calculate the placements within a game (called challenge in this app) and eventually calculate the final, 
+overall placements of all teams. The App supports creation of events, challenges and users. It also has a simple role based access system.
 
-I started this project but never finished/optimized/refactored/improved it. But there are enough open issues, ideas and   
-notes about improvements so that this project can be a good start to establish and improve your React coding skills.
+I started this project but never finished/optimized/refactored/improved it. But there are enough open issues, ideas and
+notes about improvements so that this project can be a good start to establish and improve your Python and React coding skills.
 
 For UI https://primereact.org/ is used.
 
-If you want to make database changes but don't want to erase whole db and init it again, you can use Alembic.  
+If you want to make database changes but don't want to erase whole db and init it again, you can use Alembic.
 It is part of the backend package of this project.
 
 As far as I remember this app does not assume any OS, so it should work on Windows, Linux and Mac.
 
 The app itself is in german, but there are a lot of translators out there, so it should be no problem, to translate
-all of it to english.
+all of it to english or any other language you desire.
 
 ---
 
@@ -55,17 +55,17 @@ you should see address in your shell which you can enter in your browser. The lo
 **PW**: ***admin***
 
 ### 2.2 Backend
-It is recommended to create a virtual environment. Ideally the Makefile should be able to do it ^^. After that,  
-you have to install all dependencies (to be honest, not all dependencies are necessary. I tried some stuff and didn't remove  
-the deps afterwards. sry for that) via `pip install -r requirements.txt` or `poetry install`. With that, you now should be able   
-to initialize your backend by running `python init_tables.py`. After successful init, you start the backend server with  
+It is recommended to create a virtual environment. Ideally the Makefile should be able to do it ^^. After that,
+you have to install all dependencies (to be honest, not all dependencies are necessary. I tried some stuff and didn't remove
+the deps afterwards. sry for that) via `pip install -r requirements.txt` or `poetry install`. With that, you now should be able
+to initialize your backend by running `python init_tables.py`. After successful init, you start the backend server with
 `python server.py`. And that should be it :)
 
 ---
 
 ## 3. Open Issue List
-Here you will find a list of open issues/to-do's which are not realized/implemented which you can code.   
-Every section represents a different part of the app, e.g. Home represents the Start page of the app you are welcomed with.  
+Here you will find a list of open issues/to-do's which are not realized/implemented which you can code.
+Every section represents a different part of the app, e.g. Home represents the Start page of the app you are welcomed with.
 Unfortunately, you have to find out on your own, if the open issue is related to backend or frontend ^^
 
 ### 3.1 Home
@@ -88,7 +88,7 @@ Unfortunately, you have to find out on your own, if the open issue is related to
 
 - [ ] **`A-0001`**: Logic for refresh- and access-token has to be completed
 - [ ] **`A-0002`**: Refactor the check for session_id by replacing code with a decorator
-- [ ] **`A-0003`**: Since the authorization is for learning purposes, replace it with some tested and used online solution ;)
+- [ ] **`A-0003`**: Since the authorization is for learning purposes, replace it with some tested and used online solution which is actually safe ;)
 
 ### 3.5 User
 
@@ -129,9 +129,9 @@ Unfortunately, you have to find out on your own, if the open issue is related to
 - [ ] **`I-0007`**: Implement some kind of caching system 
 
 ### 3.11 Misc
-In the source code itself there are a lot of `# todo` / `// todo` sections in the code, with more open issues. So it's not just this  
-list, but the source code as well, with open issues. Unfortunately it's mixed: sometimes it's in german, sometimes in english. I am  
-not even sure, why i wasn't consisted in my choice of language :D But with some fitting translator it should be not a problem at all  
+In the source code itself there are a lot of `# todo` / `// todo` sections in the code, with more open issues. So it's not just this
+list, but the source code as well, with open issues. Unfortunately it's mixed: sometimes it's in german, sometimes in english. I am
+not even sure, why i wasn't consisted in my choice of language :D But with some fitting translator it should be not a problem at all
 to translate it to english or any language you desire.
 
 ---
@@ -148,6 +148,7 @@ frontend is done with React and its hooks. Here are some ideas which can improve
 - There is a pretty poor implementation of caching stuff in localStorage. This is a good opportunity to replace it with redux-persist
 - There is like 0 testing in this project and since this project is fairly simple, writing all necessary tests should be pretty straight forward and you would definitely benefit from it
 - The interface of the backend should be refactored to its different components
+- Replace the auth system. It was for pure learning purposes. No offense, but don't assume, you can do better than already, by thousands, tested solutions out there ;P
 
 ## 5. How does the app work
 Coming soon... or you can click and find out on your own until this section is ready ;P
@@ -173,8 +174,8 @@ I did write down everything I remembered and/or had written down. Therefore:
 
 But it probably has some potential to be extended and make it work (and sell, I guess) in production.
 
-I learned a lot creating this project and hopefully you will do as well by extending the existing features.  
-Eventually, feel free to modify this app as you wish and add any feature/functionality you want. The open issues I wrote  
+I learned a lot creating this project and hopefully you will do as well by extending the existing features.
+Eventually, feel free to modify this app as you wish and add any feature/functionality you want. The open issues I wrote
 above are a list of open issues to get you running, if you don't know what to do or where to start.
 
 **Happy Coding**  
