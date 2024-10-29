@@ -102,11 +102,9 @@ build/
 out/
 .nuxt/
 .cache/
-public
 
 # Gatsby files
 .cache/
-public/
 
 
 # =========================
