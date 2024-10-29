@@ -1,25 +1,25 @@
 # TIO-APP: Team Event App
 
-1. [The Tio App](#the-tio-app)
-2. [How to run the app](#how-to-run-the-app)
-   - [Frontend](#frontend)
-   - [Backend](#backend)
-3. [Open Issue List](#open-issue-list)
-   - [Home](#home)
-   - [Events](#events)
-   - [Games](#games)
-   - [Auth](#auth)
-   - [User](#user)
-   - [Logging](#logging)
-   - [Navigation](#navigation)
-   - [General](#general)
-   - [Blob](#blob)
-   - [Ideas](#ideas)
-   - [Misc](#misc)
-4. [Further Improvements](#further-improvements)
-5. [How does the app work](#how-does-the-app-work)
-6. [Environment variable](#environment-variable)
-7. [Last words](#last-words)
+1. [The Tio App](#1-the-tio-app)
+2. [How to run the app](#2-how-to-run-the-app)
+   - [Frontend](#21-frontend)
+   - [Backend](#22-backend)
+3. [Open Issue List](#3-open-issue-list)
+   - [Home](#31-home)
+   - [Events](#32-events)
+   - [Games](#33-games)
+   - [Auth](#34-auth)
+   - [User](#35-user)
+   - [Logging](#36-logging)
+   - [Navigation](#37-navigation)
+   - [General](#38-general)
+   - [Blob](#39-blob)
+   - [Ideas](#310-ideas)
+   - [Misc](#311-misc)
+4. [Further Improvements](#4-further-improvements)
+5. [How does the app work](#5-how-does-the-app-work)
+6. [Environment variables](#6-environment-variables)
+7. [Last words](#7-last-words)
 
 ---
 
@@ -150,10 +150,14 @@ frontend is done with React and its hooks. Here are some ideas which can improve
 - The interface of the backend should be refactored to its different components
 - Replace the auth system. It was for pure learning purposes. No offense, but don't assume, you can do better than already, by thousands, tested solutions out there ;P
 
+---
+
 ## 5. How does the app work
 Coming soon... or you can click and find out on your own until this section is ready ;P
 
-## 6. Environment variable
+---
+
+## 6. Environment variables
 The app is making use of environment variables. In particular
 
 - TIO_DB_USER = 'some_user'
@@ -166,7 +170,9 @@ The app is making use of environment variables. In particular
 
 You can use a .env file (easiest solution I'd recommend or put all this in your environment variables of your OS).
 
-## 7. Last words 
+---
+
+## 7. Last words
 This Readme is surely not complete in regard of open issues or functionality (`5.How does the app work`) or just stating the status quo of the app.
 I did write down everything I remembered and/or had written down. Therefore:
 
