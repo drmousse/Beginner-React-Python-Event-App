@@ -4,6 +4,7 @@
 2. [How to run the app](#2-how-to-run-the-app)
    - [Frontend](#21-frontend)
    - [Backend](#22-backend)
+   - [Themes](#23-themes)
 3. [Open Issue List](#3-open-issue-list)
    - [Home](#31-home)
    - [Events](#32-events)
@@ -58,6 +59,22 @@ you have to install all dependencies (to be honest, not all dependencies are nec
 the deps afterwards. sry for that) via `pip install -r requirements.txt` or `poetry install`. With that, you now should be able
 to initialize your backend by running `python init_tables.py`. After successful init, you start the backend server with
 `python server.py`. And that should be it :)
+
+### 2.3 Themes
+This app makes use of some themes, which you have to copy to folder **frontend/themes** from ***primereact***. You will find the
+themes, after successful execution of `npm install`, in **node_modules/primereact/resources/themes/``. From there you have to copy
+two folders into **frontend/themes**:
+
+- lara-dark-amber
+- lara-light-amber
+
+If you want to use another theme, you can copy any other theme from the resources folder and put it into **frontend/themes** 
+and after that, you have to change two files accordingly:
+
+- frontend/constants.js
+  - change constant TIO_BASE_THEME
+- frontend/index.html
+  - change link to stylesheet of theme
 
 
 ## 3. Open Issue List
